@@ -7,7 +7,6 @@ from lib.appliance import Appliance
 from lib import authentication
 app = Flask(__name__)
 
-
 def updateStates(rooms):
 	for i, room in enumerate(rooms):
 		for j, appliance in enumerate(room['Appliances']):
